@@ -1,0 +1,110 @@
+/* fonts */
+@font-face {
+  font-family: "Avenir Next";
+  src: url(../fonts/AvenirNext.ttc) format("truetype");
+  font-style: normal;
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+
+/* general styles */
+html {
+  font-size: 16px;
+}
+
+body {
+  background-color: #1F76BC !important;
+}
+
+/* header styles */
+header {
+  background-color: #1F76BC;
+}
+
+.logo {
+  max-height: 55px;
+}
+
+a.nav-link {
+  color: #FFF;
+  font-family: "Avenir Next";
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.nav-pills .nav-link.active {
+  color: #FFC72C !important;
+  background-color: transparent !important;
+}
+
+.nav-pills .nav-link:hover {
+  color: #FFC72C !important;
+  background-color: transparent !important;
+}
+
+/* body styles */
+#intro {
+  margin-top: 88px;
+}
+
+#intro h1 {
+  color: #FFF;
+  font-family: "Avenir Next";
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+h3.card-title {
+  color: #FFF;
+  font-family: "Avenir Next";
+  text-transform: uppercase;
+  text-align: center;
+}
+
+h3.card-title:hover {
+  color: #FFC72C;
+}
+
+.card-body a {
+  text-decoration: none;
+}
+
+.card img {
+  max-height: 419px;
+}
+
+.box {
+  max-width: 400px;
+  max-height: 400px;
+  overflow: hidden;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+}
+
+.box img {
+  transition: all 0.5s, transform 0.5s;
+  width: 100%;
+  opacity: 1;
+}
+
+.box img:hover {
+  transform: scale(1.2);
+  opacity: 0.7;
+}
+
+div.card {
+  background-color: transparent;
+  border: none;
+}
+
+/* footer styles */
+footer p {
+  font-family: "Avenir Next";
+  font-weight: 300;
+  color: rgba(255,255,255,0.5);
+  font-size: 1rem;
+}
+/* media queries */
